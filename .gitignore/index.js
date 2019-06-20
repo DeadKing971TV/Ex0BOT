@@ -12,7 +12,7 @@ client.on("ready", function() {
     console.log("Connected")
 });
 
-client.login("NTY3MTQyNDkzNjMyNzI1MDEz.XLPPRw.SV2nAd6FaXIXof6dLvZQbqI7QQU");
+client.login(process.env.TOKEN);
 
 client.on("message", message =>{
     if(message.content === prefix + "fbs"){
