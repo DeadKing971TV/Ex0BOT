@@ -1,0 +1,20 @@
+{
+  "name": "ex0bot.exe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ex0_DeadKingTV",
+  "license": "ISC",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^11.4.2",
+    "ffmpeg-binaries": "^4.0.0",
+    "fs": "0.0.1-security",
+    "opusscript": "0.0.6",
+    "winston": "^3.2.1",
+    "ytdl-core": "^0.29.1"
+  }
+}
