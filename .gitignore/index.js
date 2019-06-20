@@ -3,7 +3,7 @@ const fs = require('fs')
 const client = new Discord.Client();
 const ytdl = require('ytdl-core');
 
-let prefix = "?";
+let prefix = "!";
 
 const warns = JSON.parse(fs.readFileSync('./warns.json'))
 
